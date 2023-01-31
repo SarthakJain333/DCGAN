@@ -13,7 +13,7 @@ import shutil
 from keras.utils import array_to_img
 from keras import preprocessing
 
-data_path = r"C:\Users\dhabr\OneDrive\Desktop\gans_in_action\archive"
+data_path = r"images_for_gan_project"
 batch_size = 64
 
 data = keras.preprocessing.image_dataset_from_directory(data_path,
